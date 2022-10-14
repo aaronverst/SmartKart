@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<script src="C:\Users\Aaron Verst\Desktop\basic-template\js\main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    
+    <!-- The following line references an external css file -->
+    <!-- It defines style rules for your page, and elements in your page -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="BodyClass">
+        <div>
+            <h3>   </h3>
+        </div>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        <div>
+            <h1>Your List</h1>
+        </div>
+        <div class="button__toolbar">
+            <div class="left-group">
+                <button type="button" class="button" onClick="parent.location='checkout.html'">
+                    <span class ="button__text">Checkout</span>
+                    <span class ="button__icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+            <div class="right-group">
+                <button type="button" class="button" onClick="parent.location='index.html'">
+                    <span class ="button__text">Home</span>
+                    <span class ="button__icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="listwrapper">
+          <div class="box a">Eggs</div>
+          <div class="box b">$2.99</div>
+          <div class="box c">Bread</div>
+          <div class="box d">$2.49</div>
+          <div class="box e">Steak</div>
+          <div class="box f">$17.49</div>
+          <div class="box g">Ice Cream</div>
+          <div class="box h">$4.99</div>
+        </div>
+    </div>
+    <!-- Load external JS files -->
+    <!-- This is where you will do most of the 'work' for your applications -->
+    <script src="js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

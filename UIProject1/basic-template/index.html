@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<script src="C:\Users\Aaron Verst\Desktop\basic-template\js\main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>SmartKart</title>
+    
+    <!-- The following line references an external css file -->
+    <!-- It defines style rules for your page, and elements in your page -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="BodyClass">
+        <div>
+            <h3>   </h3>
+        </div>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        <div>
+            <h1>SmartKart</h1>
+        </div>
+        <div class="button__toolbar">
+            <div class="left-group">
+                <button type="button" class="button" onClick="parent.location='checkout.html'">
+                    <span class ="button__text">Checkout</span>
+                    <span class ="button__icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+            <div class="right-group">
+                <button type="button" class="button" onClick="parent.location='list.html'">
+                    <span class ="button__text">List</span>
+                    <span class ="button__icon">
+                        <ion-icon name="list-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h3>   </h3>
+        </div>
+        <img src="img/StoreMap.png" alt="Smart Fridge" class="center" style="width:750px;height:500px;">
+        <div>
+            <h3>   </h3>
+        </div>
+        <div class="button__toolbar">
+            <div>
+                <button type="button" id='button'class="button" onclick="Directions()">
+                    <span class ="button__text" id ="prompt"></span>
+                    <span class ="button__icon">
+                        <ion-icon name="scan-outline"></ion-icon>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h3>   </h3>
+        </div>
+        <div>
+            <h2 id="texto"></h2>
+        </div>
+    </div>
+    <!-- Load external JS files -->
+    <!-- This is where you will do most of the 'work' for your applications -->
+    <script src="js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

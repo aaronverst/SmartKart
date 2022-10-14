@@ -1,0 +1,191 @@
+/* This is an empty style sheet in CSS */
+img {
+  border: 5px solid #000000;
+}
+h1 {
+  border:4px solid #000000;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  background: #009578;
+}
+h2 {
+  text-align: center;
+  border: 4px solid #000000;
+  margin: 0;
+  padding: 15px 0;
+  font-size: 20px;
+  background: #009578;
+}
+h3 {
+  padding: 0px;
+  text-align: center;
+  background: lightgray;
+  font-size: 5px;
+  background: #009578;
+}
+button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+.applebutton{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    flex: 50;
+    padding: 0;
+    background: #25201F;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}  
+.cardbutton{
+    display: inline-flex;
+    height: 50px;
+    padding: 0px;
+    background: #A2133A;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}  
+.venmobutton{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #28C4E0;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}  
+button:hover {
+      background-color:#008168;
+      transition: 0.1s;
+}
+button:active {
+      background-color:#006e58;
+      transition: 0.1s;
+}
+.button__toolbar{
+  display: flex;
+  justify-content: space-evenly;
+  padding:0 40px;
+}
+.button__text,
+.button__icon{
+  display: inline-flex;
+  align-items: center;
+  padding:0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon{
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0.08);
+}
+.left-group{
+  display: flex;
+  flex: 10;
+  justify-content: flex-start;
+}
+.right-group {
+  display: flex;
+  flex: 10;
+  justify-content: flex-end;
+}
+  
+body {
+  background-color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clock {
+  
+    margin-left: 45%;
+    margin-right: 50%;
+    width: 50%;
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+.BodyClass{
+    width: 60%;
+    height: 100%;
+    margin: 50; /* Space from this element (entire page) and others*/
+    padding: 50; /*space from content and border*/
+    border: 1rem solid;;
+    border-width: thick;
+    border-radius: 25px;
+    overflow:hidden;
+    display:block;
+    box-sizing: border-box;
+    background: lightgray;
+}
+
+.ListClass{
+    width: 60%;
+    font-size: 30px;
+    height: 100%;
+    margin: 20; /* Space from this element (entire page) and others*/
+    padding: 50; /*space from content and border*/
+    border: 1rem solid;;
+    border-width: thick;
+    border-radius: 25px;
+    overflow:hidden;
+    display:block;
+    box-sizing: border-box;
+    background: lightgray;
+}
+
+.listwrapper {
+  display: grid;
+  font-size: 30px;
+  grid-gap: 1rem;
+  grid-template-columns: .5fr .5fr .5fr;
+  grid-auto-flow: dense;
+  padding: 0.5rem;
+}
+
+.box {
+  background-color: #008168;
+  padding: 2rem;
+}
+
+.a,
+.c,
+.e,
+.g {
+  background-color: #009578;
+  grid-column: span 2; 
+}
